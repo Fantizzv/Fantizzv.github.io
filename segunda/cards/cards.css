@@ -1,0 +1,64 @@
+body{
+    background-color: #232527;
+    font-family: 'Roboto';
+}
+
+
+
+.cards{
+    display: flex;
+    gap: 20px;
+
+}
+
+.cards > a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.thumb{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px ;
+
+}
+
+
+
+.titulo{
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+
+
+.info{
+    font-size: 10x;
+    font-weight: bold;
+    color: lightgray;
+    display: flex;
+    gap: 15px;
+
+
+
+
+
+}
+
+.info > label > i{
+    font-size: 14px ;
+}
+
+.info > label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
