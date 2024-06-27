@@ -1,0 +1,43 @@
+.thumb{
+    width: 250px;
+    height: 330px;
+
+}
+
+div > .card > label{
+    background-color: ;
+}
+
+.nome{
+    font-size: 24px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.info{
+    display: flex;
+}
+
+a > div{
+    font-weight: bold;
+    height: 20px;
+    width: 140px;
+    color: gray;
+    background-color: #002F36;
+}
+
+a{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a > div > label{
+    color: darkorange;
+    font-weight: bold;
+}
