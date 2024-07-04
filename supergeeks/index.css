@@ -1,0 +1,23 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.banner > img{
+    width: 210px;
+    height: 210px;
+    
+}
