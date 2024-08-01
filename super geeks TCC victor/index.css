@@ -2,11 +2,17 @@
 
 .container1{
     background-color: rgba(82, 26, 26, 0.89);
-    width: 110%;
+    width: 1343px;
     height: 160px;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    border-top-left-radius: 50px;
+}
+
+.container1:hover{
+    background-color: rgba(82, 26, 26, 0.815);
+    transition: 1s;
 }
 
 h1{
@@ -38,12 +44,18 @@ h2{
 
 .container2{
     height: 20px;
-    width: 110%;
+    width: 1303px;
     background-color: rgb(105, 68, 68);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    border-bottom-right-radius: 50px;
+}
+
+.container2:hover{
+    background-color:  rgba(105, 68, 68, 0.911);
+    transition: 1s;
 }
 
 nav{
@@ -53,7 +65,6 @@ nav{
     align-items: center;
     gap: 5px;
     padding: 3px;
-    
 }
 
 .pesquisar{
@@ -90,4 +101,381 @@ nav{
 a:hover{
     background-color: brown;
     transition: 0.5s;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.title2{
+    background-color: rgb(83, 54, 59);
+    color: rgb(240, 109, 109);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 17px;
+    font-size: 19px;
+}
+
+.title2:hover{
+    color: rgb(175, 101, 101);
+    transition: 0.5s;
+}
+
+.centro1{
+    display: flex;
+    justify-content: center;
+}
+
+.title3{
+    display: flex;
+    background-color: #ac0f0f;
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+}
+
+.title3:hover{
+    background-color: rgba(172, 15, 15, 0.815);
+    color: rgba(255, 255, 255, 0.63);
+    transition: 1s;
+}
+
+.card1{
+    background-color: rgb(105, 50, 50);
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 320px;
+}
+
+.card1:hover{
+    background-color: rgba(139, 0, 0, 0.822);
+    transition: 1s;
+}
+
+.img01{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.img02{
+    width: 202px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img03{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+}
+
+.img04{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 335px;
+}
+
+.info1{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info2{
+    display: flex;
+    color: white;
+    font-size: 30px;
+
+}
+
+.info3{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info4{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.centro2{
+    display: flex;
+    justify-content: center;
+}
+
+.title4{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 15, 15);
+    width: 130px;
+    height: 40px;
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.title4:hover{
+    background-color: rgba(172, 15, 15, 0.815);
+    color: rgba(255, 255, 255, 0.63);
+    transition: 1s;
+}
+
+.card2{
+    background-color: rgb(105, 50, 50);
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.card2:hover{
+    background-color: rgba(139, 0, 0, 0.822);
+    transition: 1s;
+}
+
+.img05{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 240px;
+    width: 250px;
+}
+
+.img06{
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 240px;
+}
+
+.img07{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 240px;
+    width: 250px;
+}
+
+.img08{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 240px;
+    width: 250px;
+}
+
+.info5{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info6{
+    display: flex;
+    color: white;
+    font-size: 30px;
+
+}
+
+.info7{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info8{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.centro3{
+    display: flex;
+    justify-content: center;
+}
+
+.title5{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 15, 15);
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.title5:hover{
+    background-color: rgba(172, 15, 15, 0.815);
+    color: rgba(255, 255, 255, 0.63);
+    transition: 1s;
+}
+
+.card3{
+    background-color: rgb(105, 50, 50);
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.card3:hover{
+    background-color: rgba(139, 0, 0, 0.822);
+    transition: 1s;
+}
+
+.img09{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.img10{
+    width: 202px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img11{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+}
+
+.img12{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 335px;
+}
+
+.info9{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info10{
+    display: flex;
+    color: white;
+    font-size: 30px;
+
+}
+
+.info11{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info12{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.centro4{
+    display: flex;
+    justify-content: center;
+}
+
+.title6{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 15, 15);
+    width: 120px;
+    height: 40px;
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+}
+
+.title6:hover{
+    background-color: rgba(172, 15, 15, 0.815);
+    color: rgba(255, 255, 255, 0.63);
+    transition: 1s;
+}
+
+.card4{
+    background-color: rgb(105, 50, 50);
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.card4:hover{
+    background-color: rgba(139, 0, 0, 0.822);
+    transition: 1s;
+}
+
+.img13{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.img14{
+    width: 202px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img15{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+}
+
+.img16{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 335px;
+}
+
+.info13{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info14{
+    display: flex;
+    color: white;
+    font-size: 30px;
+
+}
+
+.info15{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.info16{
+    display: flex;
+    color: white;
+    font-size: 30px;
 }
