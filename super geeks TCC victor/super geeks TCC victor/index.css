@@ -72,13 +72,12 @@ nav{
 }
 
 .a1{
-    height: 32px;
+    height: 40px;
     width: 620px;
     align-items: center;
     display: flex;
-    gap: 40px;
+    gap: 4px;
     justify-content: space-between;
-    padding: 4px;
     color: white;
     border-radius: 10px;
 }
