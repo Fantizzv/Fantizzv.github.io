@@ -1,0 +1,96 @@
+body{
+    border: 3px solid black;
+}
+
+.tudo1{
+    height: 400px;
+    padding: 20px;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+}
+
+.nada{
+    color: white;
+}
+
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+label{
+    padding: 0px;
+    color: black;
+    font-size: 35px;
+}
+
+.size{
+    font-size: 40px;
+}
+
+.container{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 3px;
+}
+
+.pagar{
+    display: flex;
+    height: 70px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border: 3px black solid;
+    background-color: rgb(139, 0, 0);
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.carrinho{
+    display: flex;
+    height: 70px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 3px black solid;
+    background-color: rgb(139, 0, 0);
+    font-size: 23px;
+    border-radius: 8px;
+}
+
+.pagar:hover{
+    background-color: rgba(139, 0, 0, 0.87);
+    transition: 1s;
+}
+
+.carrinho:hover{
+    background-color: rgba(139, 0, 0, 0.87);
+    transition: 1s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.linha{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
