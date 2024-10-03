@@ -34,9 +34,18 @@
     justify-content: center;
 }
 
+.decoration{
+    text-decoration: none;
+}
+
 label{
     display: flex;
     font-size: 30px;
+    color: white;
+}
+
+.label1{
+    color: black;
 }
 
 img{

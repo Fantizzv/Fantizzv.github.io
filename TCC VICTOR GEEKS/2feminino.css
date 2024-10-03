@@ -37,5 +37,17 @@
 label{
     display: flex;
     font-size: 30px;
+    color: rgba(255, 255, 255, 0.883);
 }
 
+.img1{
+    width: 200px;
+}
+
+.label1{
+    color: black;
+}
+
+.decoration{
+    text-decoration: none;
+}
