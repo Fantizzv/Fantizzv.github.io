@@ -1,3 +1,7 @@
+.transition{
+    color: black;
+}
+
 .tudo{
     display: flex;
     justify-content: center;
@@ -37,6 +41,11 @@
 label{
     display: flex;
     font-size: 30px;
+    color: white;
+}
+
+.decoration1{
+    text-decoration: none;
 }
 
 .img1{
@@ -47,3 +56,24 @@ label{
     width: 200px;
     height: 230px;
 }
+
+.img3{
+    width: 200px;
+    height: 230px;
+}
+
+.img5{
+    width: 200px;
+    height: 200px;
+}
+
+.img6{
+    width: 200px;
+    height: 200px;
+}
+
+.img7{
+    width: 200px;
+    height: 200px;
+}
+
